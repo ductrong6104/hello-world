@@ -15,6 +15,6 @@ git command -help -  See all the available options for the specific command
 git help --all -  See all possible commands
 
 git checkout -b name_branch: create new branh va move to it if it is not exist
-
 git branch -d name_branch: xoa nhanh o repository
 
+git remote add origin url_on_git: chỉ định rằng bạn đang thêm một kho lưu trữ từ xa, với URL được chỉ định, làm nguồn gốc cho kho lưu trữ Git cục bộ của bạn.
