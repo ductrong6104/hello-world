@@ -13,3 +13,5 @@ git log: xem lịch sử commit của repository
 
 git command -help -  See all the available options for the specific command
 git help --all -  See all possible commands
+
+git checkout -b name_branch: create new branh va move to it if it is not exist
