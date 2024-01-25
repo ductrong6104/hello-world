@@ -7,4 +7,9 @@ khi thêm file mới vào folder myproject, dùng git status: file trong folder 
 dùng lệnh git add --all (hoặc git add -A): add nhiều file vào trong staging environment
 
 git commit -m "message": dùng git commit lúc nào cũng đi kèm theo message
-git commit -a -m "message": dùng git commit k cần quan tâm các file trong staging, (bỏ qua việc lưu file vào staging trc khi commit)
+git commit -a -m "message": dùng git commit k cần quan tâm các file trong staging, (bỏ qua việc lưu file vào staging trc khi commit). Không đề nghị dùng cách này (Warning: Skipping the Staging Environment is not generally recommended. Skipping the stage step can sometimes make you include unwanted changes.)
+
+git log: xem lịch sử commit của repository
+
+git command -help -  See all the available options for the specific command
+git help --all -  See all possible commands
