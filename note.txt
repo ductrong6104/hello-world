@@ -1,0 +1,10 @@
+tạo folder myproject trên đĩa
+khi dùng lệnh git init trong folder myproject: thì myproject trở thành repository (kho lữu trữ)
+khi thêm file mới vào folder myproject, dùng git status: file trong folder ở 2 trạng thái:
+	+ tracked: đã đc lưu vào trong repository
+	+ untracked: file này có trong folder nhưng chưa đc add vào trong repository: phải dùng lệnh git add name_file để add file to staging(phân loại) environment
+
+dùng lệnh git add --all (hoặc git add -A): add nhiều file vào trong staging environment
+
+git commit -m "message": dùng git commit lúc nào cũng đi kèm theo message
+git commit -a -m "message": dùng git commit k cần quan tâm các file trong staging, (bỏ qua việc lưu file vào staging trc khi commit)
